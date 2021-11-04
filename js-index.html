@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="styles/myStyles.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+		
+		//this is a var declare and value assigned
+		var name = "Jo";
+		
+
+		// example 1 prompt and conversion to integers
+		var age;
+		age = parseInt(prompt("Enter your age"));
+		//example 2 use of if statement with less than or more than
+		if (age > 3){
+			alert ("You are old enough to enter this site, you are welcome to use it")
+	
+		}else{
+			alert ("You are not old enough to enter this site, but can't wont stop you")
+		}
+		
+		//example 3 the use of set variables to calculate outcome
+		var q = 10
+		var w = 12
+		
+		var res = w-q
+		
+		
+
+		
+		document.write("Hi " + name+ "\n how are you? "); //making use of the variable
+		
+		document.write("<br />" + name + " you are " + age + " if you believe that " + w + " + " + q + " equals to " + res + " you may enter the link at the bottom of the page" );
+		
+	</script>
+  </head>
+  <body>
+	<p>my paragraph</p>
+	<a href="page2.html">Page 2</a>
+	
+	
+  </body>
+</html>
